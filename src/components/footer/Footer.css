@@ -1,0 +1,147 @@
+.footer {
+  border-top: 1px solid #00000017;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.2fr 2fr;
+  width: 100%;
+  padding: 50px 150px;
+}
+
+.footer-info .footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer-info .footer-logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+}
+
+.footer-info .footer-logo p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.footer-info .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer-info .footer-links h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.footer-info .footer-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.footer-info .footer-links ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-info .footer-links ul li a:hover {
+  color: #b88e2f;
+}
+
+.footer-info .footer-help {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer-info .footer-help h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.footer-info .footer-help ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.footer-info .footer-help ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-info .footer-help ul li a:hover {
+  color: #b88e2f;
+}
+
+.footer-info .footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer-info .footer-newsletter h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.footer-info .footer-newsletter form {
+  display: flex;
+  gap: 11px;
+}
+
+.footer-info .footer-newsletter form input {
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #9f9f9f;
+}
+
+.footer-info .footer-newsletter form button {
+  width: 75px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-bottom: 1px solid #000000;
+  transition: all 0.3s ease;
+}
+
+.footer .footer-copyright {
+  border-top: 1px solid #00000017;
+  margin: 50px 100px;
+  padding-top: 35px;
+}
+
+.footer .footer-copyright p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}

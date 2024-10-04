@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: center;
+  padding: 30px 50px;
+  width: 100%;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+.header-links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+.header-links a:hover {
+  color: #B88E2F;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.header-icons .icon{
+    transition: all 0.3s ease;
+    color: #000000;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.header-icons .icon:hover{
+    color: #B88E2F;
+}
