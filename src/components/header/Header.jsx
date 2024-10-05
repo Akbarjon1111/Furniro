@@ -1,7 +1,7 @@
-import "./Header.css"
-import { FaRegUser } from "react-icons/fa6";
-import { CiSearch, CiHeart } from "react-icons/ci";
+import "./Header.css";
+import { CiSearch } from "react-icons/ci";
 import { FiShoppingCart } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,19 +10,22 @@ const Header = () => {
         <img src="../../../src/assets/logo.png" alt="Logo" />
       </div>
       <div className="header-links">
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/shop">Shop</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className="header-icons">
-        <FaRegUser className="icon"/>
-        <CiSearch className="icon"/>
-        <CiHeart className="icon"/>
-        <FiShoppingCart className="icon"/>
+        <form>
+          <input type="text" placeholder="Search" />
+          <CiSearch className="icon icon11" />
+        </form>
+        <Link to="/cart">
+          <FiShoppingCart className="icon" />
+        </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

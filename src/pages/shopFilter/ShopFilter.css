@@ -1,0 +1,71 @@
+.shop-filter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 348px;
+  background: #f9f1e7;
+  padding: 35px 100px;
+}
+
+.filter-1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.filter-1-icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.filter-1-icons .icons {
+  font-size: 19px;
+  color: #000;
+  cursor: pointer;
+}
+
+.filter-1-icons h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
+}
+
+.filter-1-text {
+  border-left: 2px solid #9f9f9f;
+  padding-left: 30px;
+}
+
+.filter-1-text h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.filter-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.filter-2-cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.filter-2-cart .cart-info1 h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
+}
+
+.filter-2-cart .cart-info2 {
+  padding: 12px 30px;
+  background: #fff;
+  color: #9f9f9f;
+}

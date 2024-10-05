@@ -44,3 +44,24 @@
 .header-icons .icon:hover{
     color: #B88E2F;
 }
+
+.header-icons form{
+  display: flex;
+  align-items: center;
+}
+
+.header-icons form input{
+  position: relative;
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #B88E2F;
+  color: #B88E2F;
+  padding: 10px;
+}
+
+.header-icons form .icon11{
+  position: absolute;
+  right: 190px;
+}

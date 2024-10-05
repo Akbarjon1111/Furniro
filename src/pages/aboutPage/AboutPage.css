@@ -1,0 +1,153 @@
+.about-page {
+  display: flex;
+  padding: 105px 100px;
+  width: 100%;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  width: 70%;
+}
+
+.about-info .info-cart .cart-icons {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding-top: 20px;
+}
+
+.cart-icons .ii {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ii .iii {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.info-cart .cart-info h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #000;
+  padding-top: 15px;
+}
+
+.info-cart .cart-info p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: #9f9f9f;
+  padding-top: 12px;
+}
+
+.cart-info .about-btn {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 12px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.about-carts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 41px;
+}
+
+.about-carts .category {
+  padding: 22px 41px;
+}
+
+.about-carts .category form {
+  display: flex;
+  align-items: center;
+}
+
+.about-carts .category form input {
+  position: relative;
+  width: 310px;
+  height: 60px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  color: #9f9f9f;
+  border: 1px solid #9f9f9f;
+}
+
+.about-carts .category form .s-icon {
+  position: absolute;
+  right: 160px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+
+.category .categor {
+  padding: 43px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.categor h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #000;
+}
+
+.categor .cat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cat p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 16px 77px;
+}
+
+.posts h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #000;
+}
+
+.posts .post-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.post-info .info-info h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000;
+}
+
+.post-info .info-info p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #9f9f9f;
+}

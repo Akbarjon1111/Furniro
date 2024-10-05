@@ -1,0 +1,185 @@
+.cart-products {
+  display: flex;
+  padding: 72px 100px;
+  gap: 30px;
+}
+
+.cart-product {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+.cart-product .product-title {
+  display: flex;
+  align-items: center;
+  padding: 15px 145px;
+  background: #f9f1e7;
+}
+
+.product-title .pr {
+  padding-left: 114px;
+}
+
+.product-title .qn {
+  padding-left: 137px;
+}
+
+.product-title .sb {
+  padding-left: 36px;
+}
+
+.product-title h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-info .sofa {
+  padding-left: 35px;
+}
+
+.product-info .nr {
+  padding-left: 69px;
+}
+
+.product-info .xr {
+  padding-left: 60px;
+}
+
+.product-info .pr-icon {
+  margin-left: 52px;
+  font-size: 21px;
+  cursor: pointer;
+  color: #b88e2f;
+}
+
+.product-info h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.product-info h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.product-info label {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.product-info label input {
+  display: none;
+}
+
+.product-info label span {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #000000;
+  background: none;
+  cursor: pointer;
+}
+
+.cart-total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f1e7;
+  width: 393px;
+  height: 390px;
+  padding-top: 15px;
+}
+
+.cart-total h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #000;
+}
+
+.cart-total .subtotal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 61px;
+  gap: 62px;
+}
+
+.subtotal h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+
+.subtotal p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.cart-total .total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 62px;
+  padding-top: 31px;
+}
+
+.total h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+
+.total h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #b88e2f;
+}
+
+.cart-total button {
+  padding: 14px 59px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
+  background: none;
+  border: 1px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 42px;
+  transition: all 0.3s ease;
+}
+
+.cart-total button:hover {
+  background: #b88e2f;
+  color: #fff;
+  border: 1px solid #b88e2f;
+}

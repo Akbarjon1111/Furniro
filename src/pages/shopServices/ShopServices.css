@@ -1,0 +1,39 @@
+.shop-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  padding: 100px 55px;
+  background: #faf3ea;
+}
+.shop-services .services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.services .service-icon {
+  font-size: 50px;
+  color: #242424;
+}
+
+.services .service-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.services .service-info h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 37.5px;
+  color: #242424;
+}
+
+.services .service-info p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #898989;
+}

@@ -1,0 +1,48 @@
+.home-furniture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.home-furniture p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #616161;
+}
+
+.home-furniture h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #333;
+  padding-top: 10px;
+}
+
+.furniture-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.furniture-images .images1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.furniture-images .images1 .img1 {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+
+.furniture-images .images1 .img2 {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
